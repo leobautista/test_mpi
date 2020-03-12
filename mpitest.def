@@ -2,7 +2,7 @@ Bootstrap: docker
 From: ubuntu:latest
 
 %files
-    mpi_test/mpitest.c /opt
+    mpitest.c /opt
 
 %environment
     export OMPI_DIR=/opt/ompi
